@@ -10,29 +10,24 @@ border-color: wheat
     padding:0;  
   }
   
-  /* Element Selectors */
   main {
-    font-size: 20px;
     background-color: mistyrose;
     color:darkolivegreen;
   }
-  
-  h1,
-  h2,
+
   p {
-    margin: 20px;
+    margin: 5px;
+    font-size: 18px;
   }
-h3{
+  h2 {
     display: inline;
-}
-ul {
-    display: inline;
-    color: mistyrose;
   }
+
   li {
       display: inline;
+      color: mistyrose;
   }
-  
+
   header,
   footer {
     height: 100px;
@@ -41,30 +36,31 @@ ul {
     background-color: darkseagreen;
     position: relative;
     color: mistyrose;
+    letter-spacing: 1px; 
   }
   
   footer {
     border-top: 10px solid wheat; 
-    display: inline-block;  
+    display: inline-block; 
   }
 
   img {
-    display: inline;
+    display: block;
     margin: 20px auto;
     width: 25%;
-    border-radius: 50%;
+    border-radius: 50%; /* this makes the picture look like an avatar */
     border: black solid 5px;
-    float: right;
+  }
+  figcaption {
+      font-size: 18px;
   }
   
   section {
-    margin-bottom: 0;
     padding: 20px 10px 40px 10px;
     border-top: 10px solid wheat;
     background-color: mistyrose;
   }
 
-  /* Class Selectors */
   .text-center {
     text-align: center;
   }
@@ -75,6 +71,5 @@ ul {
 
   .text-left {
       text-align: left;
-      display: inline;
   }
   
