@@ -1,0 +1,80 @@
+/* color palette 
+background-color: mistyrose with text darkolivegreen
+Background-color: darkseagreen with text mistyrose 
+border-color: wheat
+*/
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+    padding:0;  
+  }
+  
+  /* Element Selectors */
+  main {
+    font-size: 20px;
+    background-color: mistyrose;
+    color:darkolivegreen;
+  }
+  
+  h1,
+  h2,
+  p {
+    margin: 20px;
+  }
+h3{
+    display: inline;
+}
+ul {
+    display: inline;
+    color: mistyrose;
+  }
+  li {
+      display: inline;
+  }
+  
+  header,
+  footer {
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    background-color: darkseagreen;
+    position: relative;
+    color: mistyrose;
+  }
+  
+  footer {
+    border-top: 10px solid wheat; 
+    display: inline-block;  
+  }
+
+  img {
+    display: inline;
+    margin: 20px auto;
+    width: 25%;
+    border-radius: 50%;
+    border: black solid 5px;
+    float: right;
+  }
+  
+  section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 10px solid wheat;
+    background-color: mistyrose;
+  }
+
+  /* Class Selectors */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+
+  .text-left {
+      text-align: left;
+      display: inline;
+  }
+  
