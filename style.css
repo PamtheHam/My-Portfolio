@@ -19,6 +19,9 @@ border-color: wheat
     margin: 5px;
     font-size: 18px;
   }
+  h1 {
+    margin: 5px;
+  }
   h2 {
     display: inline;
   }
@@ -37,31 +40,32 @@ border-color: wheat
     position: relative;
     color: mistyrose;
     letter-spacing: 1px; 
-  }
-  
-  footer {
     border-top: 10px solid wheat; 
-    display: inline-block; 
+    border-bottom: 10px solid wheat; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
-  img {
-    display: block;
-    margin: 20px auto;
-    width: 25%;
-    border-radius: 50%; /* this makes the picture look like an avatar */
-    border: black solid 5px;
-  }
   figcaption {
-      font-size: 18px;
+      font-size: 20px;
   }
   
   section {
     padding: 20px 10px 40px 10px;
-    border-top: 10px solid wheat;
     background-color: mistyrose;
   }
+  button{
+    background-color: wheat;
+    padding: 4px;
+  }
+  
+  button:hover {
+    background-color:darkolivegreen;
+    color: mistyrose;
+  }
 
-  .text-center {
+  .text-center{
     text-align: center;
   }
   
@@ -72,4 +76,20 @@ border-color: wheat
   .text-left {
       text-align: left;
   }
-  
+
+  .Github {
+    display: flex;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10%;
+    border: black solid 5px;
+  }
+
+  .Hammond {
+    display: flex;
+    margin: 20px auto;
+    width: 20%;
+    border-radius: 50%; /* this makes the picture look like an avatar */
+    border: black solid 5px;
+    float: right;
+  }
