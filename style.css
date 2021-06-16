@@ -1,34 +1,19 @@
-/* color palette 
-background-color: mistyrose with text darkolivegreen
-Background-color: darkseagreen with text mistyrose 
-border-color: wheat
-*/
+:root {
+  --darkgreen: darkolivegreen;
+  --lightgreen: darkseagreen;
+  --pink: mistyrose;
+  --border: wheat;
+}
 
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace; 
     margin:0;
-    padding:0;  
+    padding:0; 
   }
   
-  main {
-    background-color: mistyrose;
-    color:darkolivegreen;
-  }
-
-  p {
-    margin: 5px;
-    font-size: 18px;
-  }
-  h1 {
-    margin: 5px;
-  }
-  h2 {
-    display: inline;
-  }
-
-  li {
-      display: inline;
-      color: mistyrose;
+  body {
+    background-color: var(--pink);
+    color: var(--darkgreen);
   }
 
   header,
@@ -36,60 +21,109 @@ border-color: wheat
     height: 100px;
     width: 100%;
     line-height: 100px;
-    background-color: darkseagreen;
+    background-color: var(--lightgreen);
     position: relative;
-    color: mistyrose;
+    color: var(--pink);
     letter-spacing: 1px; 
-    border-top: 10px solid wheat; 
-    border-bottom: 10px solid wheat; 
+    border-top: 10px solid var(--border);
+    border-bottom: 10px solid var(--border); 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
 
-  figcaption {
-      font-size: 20px;
-  }
-  
-  section {
-    padding: 20px 10px 40px 10px;
-    background-color: mistyrose;
-  }
-  button{
-    background-color: wheat;
+  button {
+    background-color: var(--border);
     padding: 4px;
   }
-  
+
   button:hover {
-    background-color:darkolivegreen;
-    color: mistyrose;
+    background-color: var(--darkgreen);
+    color: var(--pink);
   }
 
-  .text-center{
+  h1 {
+    margin: 20px;
+  }
+
+  li {
+      display: inline;
+      color: var(--pink);
+  }
+
+  section {
+    padding: 0px 10px;
+    display: block;
+    background-color: var(--pink);
+  }
+
+  .center {
     text-align: center;
   }
-  
-  .text-right {
-    text-align: right;
-  }
 
-  .text-left {
+ .left {
       text-align: left;
   }
 
-  .Github {
-    display: flex;
-    margin: 20px auto;
-    width: 50%;
-    border-radius: 10%;
-    border: black solid 5px;
+  .paragraph {
+    float: left;
+    width: 70%;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    max-width: 800px;
   }
 
+  p {
+    margin: 5px;
+    font-size: 18px;
+  }
+
+  #aboutme {
+    margin-bottom: 80px;
+    background-color: var(--pink);
+  }
+ 
   .Hammond {
-    display: flex;
-    margin: 20px auto;
+    display: inline-block;
+    margin-top: 60px;
+    max-width: 300px;
     width: 20%;
     border-radius: 50%; /* this makes the picture look like an avatar */
     border: black solid 5px;
+  }
+
+  #portfolio {
+    border-top: 10px solid var(--border); 
+    background-color: var(--pink);
+    margin-bottom: 30px;
+  }
+
+  .Github {
+    display: inline;
+    margin: 60px 5px;
+    max-width: 400px;
+    width: 45%;
+    border-radius: 25%;
+    border: black solid 5px;
     float: right;
+  }
+
+  @media screen and (max-width: 992px) {
+    header, main, footer {
+      display: flex;
+    flex-direction: column;
+    }
+  }
+  
+  /* Large smartphones 
+  @media screen and (max-width: 768px) {
+    nav {
+      
+    }
+  }
+  
+  /* Small smartphones 
+  @media screen and (max-width: 576px) {
+   {
+    }
   }
