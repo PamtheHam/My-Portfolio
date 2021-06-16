@@ -8,47 +8,42 @@
 </head>
 
 <body>
-  <header>
+  <header class="center">
      <nav>
       <ul>
           <!-- holy cow figure out how to align these list items right-->
-        <li class="text-right"> <a href="#aboutme"><button><h2>About Me</h2></button></a></li>
-        <li class="text-right"> <a href="#portfolio"><button><h2>Portfolio</h2></button></a></li>
-        <li class="text-right"> <a href="#contact"><button><h2>Contact</h2></button></a></li>
+        <li> <a href="#aboutme"><button><h1>About Me</h1></button></a></li>
+        <li> <a href="#portfolio"><button><h1>Portfolio</h1></button></a></li>
+        <li> <a href="#contact"><button><h1>Contact</h1></button></a></li>
       </ul>
     </nav> 
   </header>
-
-  <main>
-    <section id="aboutme">
-      <h1 class="text-left">About Me</h1>
-      <!-- re-write this about me to be more current-->
-       <p> 
-        I am a hard-working full-stack web developer with a passion for designing meaningful and creative websites. After working within technology in higher education, I developed an interest in programming and earned a certificate in full-stack web development from the Coding Bootcamp at the University of North Carolina - Chapel Hill. An innovative and goal-oriented individual with excellent attention to detail and problem-solving skills. Dedicated to building original and efficient web applications from start to finish with proficient skills in HTML, CSS, and Javascript.
-       </p>
-       <br>
-       <p>"You are braver than you believe, stronger than you seem, and smarter than you think." ~ Winnie the Pooh</p>
-    </section> 
-      <div class="text-left">
-        <figure>
-        <!-- figure out a way to align this image to the right and be on the side of your paragraph-->
-        <img src="IMG_0547.jpeg" alt="An image of Pamela Hammond" class="Hammond">
-        <figcaption class="text-center"><strong>Pamela Hammond</strong></figcaption>
-        </figure>
+  
+  <section id="aboutme" class="left">
+      <div class="paragraph">
+        <h1>About Me</h1>
+          <p>I am a hard-working full-stack web developer with a passion for designing meaningful and creative websites. After working within technology in higher education, I developed an interest in programming and earned a certificate in full-stack web development from the Coding Bootcamp at the University of North Carolina - Chapel Hill. </p>
+          <p>An innovative and goal-oriented individual with excellent attention to detail and problem-solving skills. Dedicated to building original and efficient web applications from start to finish with proficient skills in HTML, CSS, and Javascript.</p>
+          <br>
+          <p>I enjoy spending time with my husband Chris, my long-haired chihuahua Rafa, and my chartreux cat Pusheen. In my free time, I solve jigsaw puzzles, go to the beach, and experiment with new makeup styles.</p>
+          <br>
+          <p>"You are braver than you believe, stronger than you seem, and smarter than you think." ~ Winnie the Pooh</p>
       </div>
+      <figure>
+      <img src="IMG_0547.jpeg" class="Hammond" alt="An image of Pamela Hammond" >
+      </figure>
+  </section> 
+  <section>
+    <div id="portfolio">
+      <h1>My Portfolio</h1>
+      <figure>
+        <p class="paragraph">Thank you for taking the time to look at my portfolio. I hope that you find content that is creative and refreshing. I have curated a unique collection of some projects that I think reflect my personality and show my skill level. <a href="https://github.com/PamtheHam">Take a look at all of my most valued work.</a></p>
+        <img src="GitHub-logo.jpg" alt="An image of Pamela Hammond's Github profile" class="Github">
+      </figure>
+    </div>
+</section>
 
-    <section id="portfolio">
-        <div class="text-center">
-            <h1>My Portfolio</h1>
-            <!--create a detailed paragraph with a link in the middle attached to a picture that leads you to github-->
-            <figure>
-              <img src="Pamela Hammond Github.png" alt="An image of Pamela Hammond's Github profile" class="Github">
-              <figcaption><a href="https://github.com/PamtheHam">Take a look at all of my most valued work.</a></figcaption>
-            </figure>
-        </div>
-    </section>
-  </main>
-  <footer class="text-center" id="contact">
+  <footer class="center" id="contact">
     <ul>
         <!-- figure out a way to space out each list item-->
           <li> <a href="https://www.instagram.com/pamtheham_/">Instagram</a></li>
