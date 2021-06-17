@@ -80,18 +80,27 @@
     font-size: 18px;
   }
 
-  #aboutme, #portfolio, #contact {
+ #portfolio, #contact {
     margin-bottom: 30px;
+  
   }
  
   .Hammond {
-    display: inline-flex;
-    margin-top: 30px;
+    display: block;
+    margin: 30px auto;
     min-width: 200px;
     max-width: 300px;
     width: 20%;
     border-radius: 50%; /* this makes the picture look like an avatar */
     border: black solid 5px;
+  }
+
+  .bio-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
   }
 
   #portfolio {
@@ -107,6 +116,14 @@
     margin: 30px auto;
     border-radius: 25%;
     border: black solid 5px;
+  }
+    
+  .img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
   }
 
   #contact li {
@@ -126,12 +143,4 @@
     flex-direction: column;
       
     }
-  }
-  
-  .img-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-    justify-content: center;
   }
