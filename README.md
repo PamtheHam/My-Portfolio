@@ -8,6 +8,9 @@ file:///Users/pamelahammond/Desktop/Bootcamp/My-Portfolio/index.html
 
 
 Here are screenshots of my site deployed: 
+[My-Portfolio1.pdf](https://github.com/PamtheHam/My-Portfolio/files/6666908/My-Portfolio1.pdf)
+
+[My-Portfolio2.pdf](https://github.com/PamtheHam/My-Portfolio/files/6666909/My-Portfolio2.pdf)
 
 
 
