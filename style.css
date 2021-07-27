@@ -1,7 +1,7 @@
 :root {
   --darkgreen: darkolivegreen;
-  --lightgreen: darkseagreen;
-  --pink: mistyrose;
+  --lightgreen: #00d1b2;
+  --pink: #ffb3b3;
   --border: wheat;
 }
 
@@ -16,22 +16,7 @@
     color: var(--darkgreen);
   }
 
-  header,
-  footer {
-    height: 100px;
-    width: 100%;
-    line-height: 100px;
-    background-color: var(--lightgreen);
-    position: relative;
-    color: var(--pink);
-    letter-spacing: 1px; 
-    border-top: 10px solid var(--border);
-    border-bottom: 10px solid var(--border); 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
+/* 
   button {
     background-color: var(--border);
     padding: 4px;
@@ -44,15 +29,10 @@
   button:active {
     background-color: var(--lightgreen);
     box-shadow: 5px 5px grey;
-  }
+  } */
 
   h1 {
     margin: 20px 5px;
-  }
-
-  li {
-    display: inline-flex;
-    color: var(--pink);
   }
 
   section {
@@ -75,10 +55,6 @@
     text-align: left;
   }
 
-  p {
-    margin: 5px;
-    font-size: 18px;
-  }
 
  #portfolio, #contact {
     margin-bottom: 30px;
