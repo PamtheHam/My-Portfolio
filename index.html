@@ -3,20 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bulma stylesheet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+ <!-- link to personal css stylesheet -->
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>My Portfolio</title>
+  <title>Pamela Hammond's Portfolio</title>
 </head>
 
 <body>
   <header class="center">
-     <nav>
-      <ul>
-          <!-- holy cow figure out how to align these list items right-->
-        <li> <a href="#aboutme"><button><h1>About Me</h1></button></a></li>
-        <li> <a href="#portfolio"><button><h1>Portfolio</h1></button></a></li>
-        <li> <a href="#contact"><button><h1>Contact</h1></button></a></li>
-      </ul>
-    </nav> 
+
+    <nav class="navbar navbar-is-fixed-top" role="navigation" aria-label="main navigation">
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            Home
+          </a>
+          <a class="navbar-item" href="https://github.com/PamtheHam">
+            Github
+          </a>
+
+          <div class="navbar-item has-dropdown">
+            <a class="navbar-link">
+              More
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="#aboutme">
+                About Me
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item" href="#portfolio">
+                Portfolio
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item" href="#contact">
+                Contact
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <input class="input is-small is-focused" type="text" placeholder="Normal input">
+            <button class="button is-link is-rounded is-small">Rounded</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
   </header>
   
   <section id="aboutme" class="center">
@@ -37,7 +73,8 @@
       </figure>
     </div>
   </section> 
-  <section id="portfolio" >
+
+<section id="portfolio" >
     <div>
       <h1 class="center">My Portfolio</h1> 
       <p class="center">Thank you for taking the time to look at my portfolio. I hope that you find content that is creative and refreshing. I have curated a unique collection of some projects that I think reflect my personality and show my skill level.</p>
@@ -49,6 +86,10 @@
       </figure>
     </div>
 </section>
+
+
+
+
 <section class ="center" id="contact">
     <ul>
           <li><h3>Contact Me:</h3></li>
@@ -58,6 +99,14 @@
           <li><a href="https://www.linkedin.com/in/pamelahammond94/">LinkedIn</a></li>
     </ul>
 </section>
-  <footer><h3 class="center">Made with ❤️ by Pamela Hammond</h3></footer>
+
+    <footer>
+      <div>
+        <p>
+          <strong>My Portfolio</strong> by <a href="https://github.com/PamtheHam">Pamela Hammond</a>.
+        </p>
+      </div>
+    </footer>
+
 </body>
 </html>
