@@ -31,20 +31,13 @@
     box-shadow: 5px 5px grey;
   } */
 
-  h1 {
-    margin: 20px 5px;
-  }
-
   section {
-    padding: 0px 10px;
     display: block;
     background-color: var(--pink);
   }
 
-  figcaption {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    text-align: center;
+  .section-margins {
+    margin: 10px 10px;
   }
 
   .center {
@@ -53,12 +46,6 @@
 
  .left {
     text-align: left;
-  }
-
-
- #portfolio, #contact {
-    margin-bottom: 30px;
-  
   }
  
   .Hammond {
@@ -69,41 +56,6 @@
     width: 20%;
     border-radius: 50%; /* this makes the picture look like an avatar */
     border: black solid 5px;
-  }
-
-  .bio-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-    justify-content: center;
-  }
-
-  #portfolio {
-    border-top: 10px solid var(--border); 
-    border-bottom: 10px solid var(--border); 
-  }
-
-  .Github {
-    display: block;
-    min-width: 300px;
-    max-width: 400px;
-    width: 45%;
-    margin: 30px auto;
-    border-radius: 25%;
-    border: black solid 5px;
-  }
-    
-  .img-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-    justify-content: center;
-  }
-
-  #contact li {
-    color: var(--darkgreen);
   }
 
   @media screen and (max-width: 1200px) {
