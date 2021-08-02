@@ -7,13 +7,17 @@
 
 * {
     font-family: 'Noto Serif', serif;
-    color: black;
+    color: rgb(101, 67, 33);
     margin:0;
     padding:0; 
   }
 
 body {
-  background-color: rgb(16, 83, 16);
+  background-color: rgb(106, 106, 69);
+}
+
+.box {
+  background-color: rgb(210, 194, 157);
 }
   
   .Hammond {
@@ -27,6 +31,6 @@ body {
   }
 
   .img-border{
-    border: solid black 3px;
+    border: solid rgb(147, 149, 151) 3px;
     border-radius: 8%;
   }

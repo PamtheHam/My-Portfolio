@@ -26,9 +26,3 @@
     // c. links to github and portfolio ❤️
 
 // 
-
-
-
-
-$(".dropdown-trigger").dropdown();
-$( document ).ready(function)
