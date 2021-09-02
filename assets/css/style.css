@@ -1,0 +1,64 @@
+:root {
+  --lightblue: rgb(195, 243, 248);
+  --lightyel: rgb(253, 253, 212);
+}
+
+* {
+  font-family: 'Patrick Hand', cursive;
+  color: black;
+  margin:0;
+  font-size: 30px;
+  padding:0; 
+  text-align: center;
+  }
+
+body {
+  background-color: var(--lightblue)
+}
+
+a {
+  text-decoration: underline;
+  position: relative;
+}
+nav {
+  justify-content: space-between;
+  text-align: center;
+
+}
+.header {
+  padding: 20px;
+  background-color: rgb(255, 233, 213)
+}
+  
+  .subtitle {
+    text-decoration: underline;
+  }
+
+.footer {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: var(--lightblue)
+}
+
+.contact-info {
+  height: 80px;
+  width: 800px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.sky {
+  display: inline;
+  float: right;
+  position: relative;
+  width: 600px;
+  align-items: center;
+}
+  
