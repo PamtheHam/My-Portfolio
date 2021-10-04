@@ -49,17 +49,18 @@ a {
 .headshot {
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 63%;
   height: 350px;
   border-radius: 60%;
   border: solid rgb(115, 133, 114) 1px;
 }
 
 .name-div {
-  margin: auto;
-  padding-top: 50px;
-  line-height: 1.5;
-  letter-spacing: 2px;
+  line-height: 3;
+  letter-spacing: 1px;
+  height: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .resume {
