@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Birthstone&family=Yaldevi:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Birthstone&family=Merriweather:wght@300&display=swap"
       rel="stylesheet"
     />
     <!-- font awesome icons -->
@@ -31,7 +31,7 @@
   <body>
     <header class="header">
       <nav class="navbar">
-        <ul class="">
+        <ul class="hide-on-med-and-down">
           <li>
             <a class="nav-link" href="./index.html">Home</a>
           </li>
@@ -49,35 +49,40 @@
     </header>
 
     <main>
-      <img
-        src="./assets/images/BaekbeomPark.jpeg"
-        class="about-img"
-        alt="Baekbeom Park on Namsan Mountain, Seoul, South Korea"
-      />
-      <br />
-      <div class="container">
-        <h2>Get to know me</h2>
-        <h6>
-          After working within technology in higher education, I developed an
-          interest in programming and completed the University of North Carolina
-          - Chapel Hill’s Coding Bootcamp. Full-stack web developer with
-          experience working in student services within higher education and the
-          full-stack of web development. With excellent attention to detail and
-          organizational skills, I am dedicated to building original and
-          efficient web applications from start to finish with proficient skills
-          in HTML, CSS, and Javascript. I enjoy being challenged and working
-          outside of my comfort zone. Looking for the perfect match with a
-          company that will test and further my knowledge of web development.
-        </h6>
-        <br />
-        <h6>
-          Outside of my professional roles, I enjoy traveling and exploring the
-          world. My dream is to live and work abroad, so I can experience life
-          from new perspectives. I enjoy spending time with my husband Chris, my
-          long-haired chihuahua Rafa, and my chartreux cat Pusheen. I have a
-          range of hobbies, including playing tennis, solving jigsaw and
-          crossword puzzles, and learning new programming skills.
-        </h6>
+      <div class="row name-div">
+        <div class="col s5">
+          <img
+            src="./assets/images/BaekbeomPark.jpeg"
+            class="about-img center-align"
+            alt="Photo of Pamela Hammond in Baekbeom Park, Seoul South Korea"
+          />
+        </div>
+
+        <div class="col s7">
+          <h4>About Me</h4>
+          <h6 class="about-paragraph">
+            After working within technology in higher education, I developed an
+            interest in programming and completed the University of North
+            Carolina - Chapel Hill’s Coding Bootcamp. Full-stack web developer
+            with experience working in student services within higher education
+            and the full-stack of web development. With excellent attention to
+            detail and organizational skills, I am dedicated to building
+            original and efficient web applications from start to finish with
+            proficient skills in HTML, CSS, and Javascript. I enjoy being
+            challenged and working outside of my comfort zone. Looking for the
+            perfect match with a company that will test and further my knowledge
+            of web development.
+          </h6>
+          <br />
+          <h6 class="about-paragraph">
+            Outside of my professional roles, I enjoy traveling and exploring
+            the world. My dream is to live and work abroad, so I can experience
+            life from new perspectives. I enjoy spending time with my husband
+            Chris, my long-haired chihuahua Rafa, and my chartreux cat Pusheen.
+            I have a range of hobbies, including playing tennis, solving jigsaw
+            and crossword puzzles, and learning new programming skills.
+          </h6>
+        </div>
       </div>
     </main>
 
@@ -85,26 +90,30 @@
       <div class="container">
         <div class="row">
           <h2 class="nav-link">Contact Me</h2>
-          <ul class="contact-info">
-            <li>
-              <a class="nav-link" href="tel:816-678-1651"
-                ><span class="icon"
-                  ><i class="fas fa-phone-square small"></i></span
-              ></a>
-            </li>
-            <li>
-              <a class="nav-link" href="mailto:hammondpamelac@gmail.com"
-                ><span class="icon"><i class="fas fa-at small"></i></span
-              ></a>
-            </li>
-            <li>
-              <a
-                class="nav-link"
-                href="https://www.linkedin.com/in/pamelahammond94/"
-                ><span class="icon"><i class="fab fa-linkedin small"></i></span
-              ></a>
-            </li>
-          </ul>
+
+          <div class="col s3">
+            <a href="tel:816-678-1651"
+              ><span class="icon"><i class="fas fa-phone icon-size"></i></span
+            ></a>
+          </div>
+
+          <div class="col s3">
+            <a href="mailto:hammondpamelac@gmail.com"
+              ><span class="icon"><i class="fas fa-at icon-size"></i></span
+            ></a>
+          </div>
+
+          <div class="col s3">
+            <a href="https://www.linkedin.com/in/pamelahammond94/"
+              ><span class="icon"
+                ><i class="fab fa-linkedin-in icon-size"></i></span
+            ></a>
+          </div>
+          <div class="col s3">
+            <a href="https://github.com/PamtheHam"
+              ><span class="icon"><i class="fab fa-github icon-size"></i></span
+            ></a>
+          </div>
         </div>
       </div>
     </footer>

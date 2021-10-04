@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Birthstone&family=Yaldevi:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Birthstone&family=Merriweather:wght@300&display=swap"
       rel="stylesheet"
     />
     <!-- font awesome icons -->
@@ -37,7 +37,7 @@
   <body>
     <header class="header">
       <nav class="navbar">
-        <ul class="left hide-on-med-and-down">
+        <ul class="hide-on-med-and-down">
           <li>
             <a class="nav-link" href="./index.html">Home</a>
           </li>
@@ -52,7 +52,7 @@
           </li>
         </ul>
       </nav>
-
+      <!-- 
       <ul id="slide-out" class="sidenav">
         <li>
           <div class="user-view">
@@ -90,7 +90,7 @@
         data-target="slide-out"
         class="sidenav-trigger button-collapse show-on-large"
         ><i class="material-icons">menu</i></a
-      >
+      > -->
     </header>
 
     <main>
@@ -103,9 +103,9 @@
           />
         </div>
 
-        <div class="col s7">
-          <h4>Hello, my name is Pamela Hammond.</h4>
-          <h5>Full Stack Web Developer</h5>
+        <div class="col s7 name-div">
+          <h5>Hello, my name is Pamela Hammond.</h5>
+          <h6>Full Stack Web Developer</h6>
           <a
             href="./assets/files/DevelopedResume.pdf"
             download
@@ -116,7 +116,7 @@
       </div>
 
       <div class="row">
-        <div class="center-align col s12 m7">
+        <div class="col s12 m6">
           <div class="card">
             <div class="card-image">
               <img
@@ -143,7 +143,7 @@
       </div>
 
       <div class="row">
-        <div class="center-align col s12 m7">
+        <div class="col s12 m6">
           <div class="card">
             <div class="card-image">
               <img
@@ -172,7 +172,7 @@
       </div>
 
       <div class="row">
-        <div class="center-align col s12 m7">
+        <div class="col s12 m6">
           <div class="card">
             <div class="card-image">
               <img
@@ -203,26 +203,30 @@
       <div class="container">
         <div class="row">
           <h2 class="nav-link">Contact Me</h2>
-          <ul class="contact-info">
-            <li>
-              <a class="nav-link" href="tel:816-678-1651"
-                ><span class="icon"
-                  ><i class="fas fa-phone-square small"></i></span
-              ></a>
-            </li>
-            <li>
-              <a class="nav-link" href="mailto:hammondpamelac@gmail.com"
-                ><span class="icon"><i class="fas fa-at small"></i></span
-              ></a>
-            </li>
-            <li>
-              <a
-                class="nav-link"
-                href="https://www.linkedin.com/in/pamelahammond94/"
-                ><span class="icon"><i class="fab fa-linkedin small"></i></span
-              ></a>
-            </li>
-          </ul>
+
+          <div class="col s3">
+            <a href="tel:816-678-1651"
+              ><span class="icon"><i class="fas fa-phone icon-size"></i></span
+            ></a>
+          </div>
+
+          <div class="col s3">
+            <a href="mailto:hammondpamelac@gmail.com"
+              ><span class="icon"><i class="fas fa-at icon-size"></i></span
+            ></a>
+          </div>
+
+          <div class="col s3">
+            <a href="https://www.linkedin.com/in/pamelahammond94/"
+              ><span class="icon"
+                ><i class="fab fa-linkedin-in icon-size"></i></span
+            ></a>
+          </div>
+          <div class="col s3">
+            <a href="https://github.com/PamtheHam"
+              ><span class="icon"><i class="fab fa-github icon-size"></i></span
+            ></a>
+          </div>
         </div>
       </div>
     </footer>

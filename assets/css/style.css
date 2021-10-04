@@ -1,5 +1,5 @@
 * {
-  font-family: "Yaldevi", sans-serif;
+  font-family: "Merriweather", serif;
   color: black;
   margin: 0;
   padding: 0;
@@ -8,42 +8,41 @@
 
 body {
   background-color: white;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 .navbar {
   display: inline;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .nav-link {
   font-family: "Birthstone", cursive;
   text-decoration: none;
   color: rgb(115, 133, 114);
-  font-size: 50px;
+  font-size: 65px;
+  padding-top: 10px;
+}
+.nav-link:hover {
+  color: black;
 }
 
 a {
   text-decoration: none;
 }
 
-.nav-link:hover {
-  color: black;
-}
-
-button {
-  border-radius: 10px;
-  padding: 5px 10px;
-  border-style: none;
+.icon-size {
+  font-size: 35px;
 }
 
 .fa-file-download {
-  color: black;
-}
-
-.resume {
-  font-family: "Yaldevi", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
   color: black;
 }
 
@@ -56,10 +55,17 @@ button {
   border: solid rgb(115, 133, 114) 1px;
 }
 
-.projects {
-  display: inline;
-  justify-content: center;
-  align-items: center;
+.name-div {
+  margin: auto;
+  padding-top: 50px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.resume {
+  color: black;
+  padding: 5px 10px;
+  border-radius: 3px;
 }
 
 .footer {
@@ -72,28 +78,14 @@ button {
 }
 
 .about-img {
-  float: left;
-  height: 500px;
-  border-radius: 5%;
-  margin: 20px 20px;
-  border: black solid 3px;
+  height: 550px;
+  border: rgb(115, 133, 114) solid 1px;
 }
 
-.contact-info {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-}
-
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-main {
-  flex: 1 0 auto;
+.about-paragraph {
+  line-height: 1.5;
+  text-indent: 50px;
+  letter-spacing: 3px;
 }
 
 /* media queries */
