@@ -37,22 +37,31 @@
   <body>
     <header class="header">
       <nav class="navbar">
-        <ul class="hide-on-med-and-down">
-          <li>
-            <a class="nav-link" href="./index.html">Home</a>
-          </li>
-          <li>
-            <a class="nav-link" href="./bio.html">About</a>
-          </li>
-          <li>
-            <a class="nav-link" href="https://github.com/PamtheHam">GitHub</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+        <div class="nav-wrapper">
+          <a href="#header-name" id="header-name" class="nav-link left">PCH</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="./bio.html">About</a>
+            </li>
+            <li>
+              <a class="nav-link" href="https://github.com/PamtheHam">GitHub</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <!-- 
+
+      <a
+        href="#"
+        data-target="slide-out"
+        class="sidenav-trigger btn hoverable button-collapse show-on-large"
+        ><i class="material-icons">menu</i></a
+      >
       <ul id="slide-out" class="sidenav">
         <li>
           <div class="user-view">
@@ -85,12 +94,6 @@
           <a class="waves-effect sidenav-close">Close</a>
         </li>
       </ul>
-      <a
-        href="#"
-        data-target="slide-out"
-        class="sidenav-trigger button-collapse show-on-large"
-        ><i class="material-icons">menu</i></a
-      > -->
     </header>
 
     <main>
@@ -195,7 +198,7 @@
       </div>
     </main>
 
-    <footer class="footer">
+    <footer class="page-footer footer" id="contact">
       <div class="container">
         <div class="row">
           <h2 class="nav-link">Contact Me</h2>
@@ -213,21 +216,24 @@
           </div>
 
           <div class="col s3">
+            <a href="https://github.com/PamtheHam"
+              ><span class="icon"><i class="fab fa-github icon-size"></i></span
+            ></a>
+          </div>
+
+          <div class="col s3">
             <a href="https://www.linkedin.com/in/pamelahammond94/"
               ><span class="icon"
                 ><i class="fab fa-linkedin-in icon-size"></i></span
-            ></a>
-          </div>
-          <div class="col s3">
-            <a href="https://github.com/PamtheHam"
-              ><span class="icon"><i class="fab fa-github icon-size"></i></span
             ></a>
           </div>
         </div>
       </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+      $(".button-collapse").sideNav();
+    </script>
     <script src="./assets/scripts/script.js"></script>
   </body>
 </html>

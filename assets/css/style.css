@@ -17,18 +17,20 @@ main {
   flex: 1 0 auto;
 }
 
+#header-name {
+  margin-left: 20px;
+}
+
 .navbar {
-  display: inline;
-  text-align: center;
+  background-color: rgb(115, 133, 114);
   margin-bottom: 100px;
 }
 
 .nav-link {
   font-family: "Birthstone", cursive;
   text-decoration: none;
-  color: rgb(115, 133, 114);
+  color: black;
   font-size: 65px;
-  padding-top: 10px;
 }
 .nav-link:hover {
   color: black;
@@ -70,12 +72,7 @@ a {
 }
 
 .footer {
-  width: 100% auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-  position: static;
+  background-color: rgb(115, 133, 114);
 }
 
 .about-img {
@@ -92,49 +89,10 @@ a {
 /* media queries */
 
 @media only screen and (max-width: 1800px) {
-  .header {
-    display: block;
-    margin: auto;
-    padding: 10px;
-  }
 }
 
 @media only screen and (max-width: 768px) {
-  * {
-    font-size: 20px;
-  }
-
-  .header {
-    width: 60%;
-  }
-
-  #projects {
-    width: 60%;
-  }
-
-  footer {
-    flex-direction: column;
-    width: 30%;
-  }
 }
 
 @media only screen and (max-width: 480px) {
-  * {
-    font-size: 20px;
-  }
-
-  .header {
-    width: 60%;
-  }
-
-  #projects {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-
-  footer {
-    flex-direction: column;
-    width: 30%;
-  }
 }
